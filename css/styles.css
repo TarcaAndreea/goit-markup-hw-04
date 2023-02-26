@@ -67,10 +67,7 @@ section {
 .navigation-list:focus {
   color: var(--hover-focus-color);
 }
-.navigation-list:hover {
-  border-radius: 2px;
-  border-color: var(--hover-focus-color);
-}
+
 .header-navigation > div {
   display: flex;
   align-items: center;
