@@ -69,8 +69,7 @@ section {
 }
 .navigation-list:hover {
   border-radius: 2px;
-  border-style: solid;
-  border-color: #2196f3;
+  border-color: var(--hover-focus-color);
 }
 .header-navigation > div {
   display: flex;
@@ -358,6 +357,7 @@ main {
 .items:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .title-section {
   font-weight: 700;
@@ -470,24 +470,15 @@ main {
   align-items: center;
   justify-content: center;
 }
-
 .icons:hover,
 .icons:active,
 .icons:focus {
   background: var(--hover-focus-color);
+  fill: #afb1b8;
 }
-.icon-list-item a {
-  color: #afb1b8;
+.icons-media {
+  fill: #afb1b8;
 }
-.icon-list-item svg {
-  fill: currentColor;
-}
-.icon-list-item a:hover,
-.icon-list-item a:focus {
-  color: var(--white-color);
-}
-.icon-list-item:hover,
-.icon-list-item:active,
-.icon-list-item:focus {
-  background-color: var(--hover-focus-color);
+.icons-media:hover {
+  fill: var(--white-color);
 }
